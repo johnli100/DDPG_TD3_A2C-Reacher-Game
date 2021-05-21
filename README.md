@@ -7,7 +7,7 @@ The state is represented as a 33 dimensional observations including the agent's 
 
 All three algorithms solved the environment and A2C seems to be the best. 
 
-<img src='A2C_reacher.png' width="400" height="300">
+<img src='A2C_reacher.png' width="400" height="250">
 
 ## Installation
 1. Install the Dependencies and setup python environment

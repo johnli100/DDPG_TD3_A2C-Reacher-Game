@@ -1,7 +1,7 @@
 ## Deep Reinforcement Learning - DDPG, TD3 and A2C applied to Reacher game
 <img src='reacher.gif' width="500" height="300">
 
-This repository holds the project code for using Deep Reinforcement Learning algorithms - DDPG, TD3 and A2C to the Reacher game with continuous controls provided by Unity Technology. It is part of the Udacity [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) requirement. 
+This repository holds the project code for using Deep Reinforcement Learning algorithms - DDPG, TD3 and A2C on Reacher envrionment with continuous controls provided by Unity Technology. It is part of the Udacity [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) requirement. 
 
 The state is represented as a 33 dimensional observations including the agent's velocity, ray-based perception of objects etc.. The agent has to learn to choose the optimal action based on the state it finds itself in. The action space is a 4 dimensional continuous space representing the torque of the double jointed robot arms. The agent's goal is to track a moving object as many time steps as possible. A reward of +0.1 is earned each step the agent successfully tracks the moving object. The environment is considered solved when the return reaches an average of 30 consistently (over 100 episodes). 
 

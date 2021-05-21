@@ -6,7 +6,8 @@ This repository holds the project code for using Deep Reinforcement Learning alg
 The state is represented as a 33 dimensional observations including the agent's velocity, ray-based perception of objects etc.. The agent has to learn to choose the optimal action based on the state it finds itself in. The action space is a 4 dimensional continuous space representing the torque of the double jointed robot arms. The agent's goal is to track a moving object as many time steps as possible. A reward of +0.1 is earned each step the agent successfully tracks the moving object. The environment is considered solved when the return reaches an average of 30 consistently (over 100 episodes). 
 
 All three algorithms solved the environment and A2C seems to be the best. 
-<img src='A2C_reacher.png' width="300" height="200">
+
+<img src='A2C_reacher.png' width="400" height="300">
 
 ## Installation
 1. Install the Dependencies and setup python environment

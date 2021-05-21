@@ -42,9 +42,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
-1. Install the Dependencies and setup python environment
-Please follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning) to set up your Python environment.
-2. There are two versions of the environment. First is the single agent version and the second is the multi-agent version. Download the Unity Environment (specifically built for this project, **not** the Unity ML-Agents package). Then place the file in the root folder and unzip the file.
+6. Download the environment - there are two versions of the environment below (specifically built for this project, **not** the Unity ML-Agents package). Then place the file in the root folder and unzip the file.
 For the first verion:
     * Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
     * Mac: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
@@ -56,7 +54,7 @@ For the second version:
     * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)    
     * Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 
-3. Import the environment in Jupyter notebook under the the *drlnd* environment.
+7. Import the environment in Jupyter notebook under the the *drlnd* environment.
 ```
 from unityagents import UnityEnvironment
 env = UnityEnvironment(file_name="[to be replaced with file below depending on OS]")

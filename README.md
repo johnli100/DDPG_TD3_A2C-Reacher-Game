@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning - DDPG, TD3 and A2C applied to Reacher game
+## Deep Reinforcement Learning - DDPG, TD3 and A2C applied to Reacher game
 <img src='reacher.gif' width="500" height="300">
 
 This repository holds the project code for using Deep Q-Network to learn to play a 3D navigation game - collecting banana in a 3D environment provided by Unity Technology. It is part of the Udacity [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) requirement. 

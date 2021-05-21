@@ -1,4 +1,4 @@
-## Deep Reinforcement Learning - DDPG, TD3 and A2C applied to Reacher game
+## Deep Reinforcement Learning - DDPG, TD3 and A2C applied to Reacher Environment
 <img src='reacher.gif' width="500" height="300">
 
 This repository holds the project code for using Deep Reinforcement Learning algorithms - DDPG, TD3 and A2C on Reacher envrionment with continuous controls provided by Unity Technology. It is part of the Udacity [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) requirement. 
